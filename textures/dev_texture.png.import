@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture"
-path.s3tc="res://.import/dev_texture.png-cefe3816763842dc6a9488f1a2d48c11.s3tc.stex"
-path.etc2="res://.import/dev_texture.png-cefe3816763842dc6a9488f1a2d48c11.etc2.stex"
+path.s3tc="res://.import/dev_texture.png-cf06a194a14cc0e8f1bf5b300736b309.s3tc.stex"
+path.etc2="res://.import/dev_texture.png-cf06a194a14cc0e8f1bf5b300736b309.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://VoxelEngine/textures/dev_texture.png"
-dest_files=[ "res://.import/dev_texture.png-cefe3816763842dc6a9488f1a2d48c11.s3tc.stex", "res://.import/dev_texture.png-cefe3816763842dc6a9488f1a2d48c11.etc2.stex" ]
+source_file="res://godot-voxelengine-cs/textures/dev_texture.png"
+dest_files=[ "res://.import/dev_texture.png-cf06a194a14cc0e8f1bf5b300736b309.s3tc.stex", "res://.import/dev_texture.png-cf06a194a14cc0e8f1bf5b300736b309.etc2.stex" ]
 
 [params]
 
@@ -30,6 +30,7 @@ process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
 process/invert_color=false
+process/normal_map_invert_y=false
 stream=false
 size_limit=0
 detect_3d=false

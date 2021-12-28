@@ -84,7 +84,7 @@ namespace VoxelEngine
 		public Index GetVoxelIndexAtWorldPosition(Vector3 position){
 			var positionOffset = position - this.Transform.origin;
 			return new Index((int)(positionOffset.x / this.voxelScale.x),
-						     (int)(positionOffset.y / this.voxelScale.y),
+							 (int)(positionOffset.y / this.voxelScale.y),
 							 (int)(positionOffset.z / this.voxelScale.z));
 		}
 

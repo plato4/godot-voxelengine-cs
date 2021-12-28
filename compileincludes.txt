@@ -1,0 +1,7 @@
+    <Compile Include="VoxelEngine\source\PaintBrush.cs" />
+    <Compile Include="VoxelEngine\source\Volume.cs" />
+    <Compile Include="VoxelEngine\source\Index.cs" />
+    <Compile Include="VoxelEngine\source\Chunk.cs" />
+    <Compile Include="VoxelEngine\source\Voxel.cs" />
+    <Compile Include="VoxelEngine\source\VoxelTools.cs" />
+    <Compile Include="VoxelEngine\source\Meshing.cs" />

@@ -34,7 +34,7 @@ namespace VoxelEngine
 
 		public MeshGenerationMethod meshGenerationMethod = MeshGenerationMethod.SingleThreaded;
 		public ColliderGenerationMethod colliderGenerationMethod = ColliderGenerationMethod.SingleThreaded;
-		public SpatialMaterial material = ResourceLoader.Load<SpatialMaterial>("res://VoxelEngine/material/dev_voxel_material.tres");
+		public SpatialMaterial material = ResourceLoader.Load<SpatialMaterial>("res://godot-voxelengine-cs/material/dev_voxel_material.tres");
 		private List<Index> dirtyChunkRegister = new List<Index>();
 
 		public enum MeshingAlgorithm{
